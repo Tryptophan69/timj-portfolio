@@ -168,6 +168,14 @@ height: 150%;
 .logo{
     margin-left: 50px;
 }
+    .lower{
+    width: 200%;
+    text-align: left;
+}
+.lower a{
+    text-align: left;
+    padding-left: 50px;
+}
 }
 @media only screen and (max-width:1528px)
 {
