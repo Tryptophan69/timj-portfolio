@@ -154,8 +154,9 @@ body {
 }
 @media only screen and (max-width:924px)
 {
-   .navbar{
-    width: 100%;
+    .navbar{
+    width: 200%;
+    justify-content: left;
    }
     .container{
 font-size: 30px;
