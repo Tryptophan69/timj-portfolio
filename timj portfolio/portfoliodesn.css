@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    background-image: url(../cool-background.png  );
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+  }
+  .heading{
+    display: flex;
+    background-color: black;
+    padding-bottom: 18px;
+    width: 200%;
+    
+}
+  .logo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 250px;
+}
+.topheading{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 50px;
+    text-align: center;
+    color: #fff;
+    margin-left: 50px;
+    
+}
+.navbar{
+    
+    display: flex; 
+    border: 1px white solid;
+    overflow: auto;
+    background-color: black;
+    font-size: 25px;
+    padding-left:  20px;
+    justify-content: center;  
+}
+.navbar :nth-child(1)
+{
+    
+    border-left: #fff solid 1px;
+}
+.navbar :nth-child(1)
+{
+    padding-right:
+}
+.navbar a{
+    display: block;
+    float: left;
+    text-decoration: none;
+    color: white;
+    border-right: 2px solid gray;
+    padding : 14px 16px;
+}
+.navbar a:hover{
+    background-color: gray;
+}
+.about{
+    display: flex;
+}
+.container{
+   
+    background-color: rgba(0,0,0,0.8); 
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 400px;
+    text-align: center;
+    margin: 30px;
+    padding: 50px;
+    font-size: 45px;
+    margin-left: 50px;
+    border: 5px solid white;
+    border-radius: 20% ;
+    color: #fff;
+    font-family: cursive;
+}
+.container p{
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+}
+.container  p:hover{
+    font-size: 105% ;
+    transition: 0.4s;
+    overflow: hidden;
+
+}
+
+.myimg{
+    height: 400px;
+    width: 400px;
+     border-radius: 100%;
+     margin-top: 40px;
+     margin-left: 60px;
+}
+.more-about-me{
+    background-color: rgba(0,0,0,0.8); 
+    background-repeat: no-repeat;
+    width: 40%;
+    height: auto;
+    text-align: center;
+    margin: 30px;
+    padding: 50px;
+    font-size: 45px;
+    margin-left: 50px;
+    border: 5px solid white;
+    border-radius: 20% ;
+    color: #fff;
+    font-family: cursive;
+}
+.more-about-me{
+    display: block;
+}
+.more-about-me p:hover{
+    font-size: 105% ;
+    transition: 0.4s;
+    overflow: hidden;
+    
+}
+.lower{
+    display: flex;
+    background-color: black;
+    color:#fff;
+    padding: 5px;
+    flex-direction: column;
+    border: 5px solid white;
+    
+}
+.lower a{
+    font-size: 25px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+}
+
+@media only screen and (max-width:1160px)
+{
+    .container{
+ font-size: 35px;
+ height: auto;
+}
+.more-about-me{
+    font-size: 35px;
+}
+.myimg{
+    margin-left: 5px;
+    height: 300px;
+    width: 300px;
+}
+}
+@media only screen and (max-width:924px)
+{
+   .navbar{
+    width: 100%;
+   }
+    .container{
+font-size: 30px;
+height: 150%;    
+}
+.more-about-me{
+    font-size: 30px;
+}
+.logo{
+    margin-left: 50px;
+}
+}
+@media only screen and (max-width:1528px)
+{
+    .container{
+
+        height: 130%;
+    }
+}
